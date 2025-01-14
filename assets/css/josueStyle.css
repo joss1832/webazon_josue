@@ -9,6 +9,8 @@ body{
     
 }
 
+/*aqui inician las especificaciones del header*/
+
 header{
     display: flex;
     background-color: rgb(7, 66, 86);
@@ -24,11 +26,11 @@ header{
     
 
 }
-
+/*especificaciones de la barra de busqueda*/
 #barra{
     display: none;
 }
-
+/*especificaciones del menu de opciones principales*/
 .lista_header{
     display: none;
 }
@@ -38,15 +40,18 @@ header{
     padding-right: 2rem;
 }
 
+/*aqui terminan las especificaciones del header */
+
+/*especificaciones de la segunda lista debajo del header*/
 .lista_debajo_del_header{
     display: none;
 }
-
+/*----------------------------------------------------------*/
 #imagen_del_jabon{
     display: none;
 }
 
-
+/*aqui comienzan las especificaciones del contenedor general de las tarjetas*/
 .contenedor_general{
     display: flex;
     margin-top: 4rem;
@@ -54,11 +59,11 @@ header{
     align-items: center;
     flex-direction: column;
     margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    
-    
-    
+    margin-right: 1.5rem;    
 }
+/*aqui terminan las especificaciones del contenedor general de las tarjetas*/
+
+/*aqui comienzan las especificaciones de la clase tarjeta*/
 
 .tarjetas{
     display: flex;
@@ -84,7 +89,9 @@ header{
     width: 100%;
     color: red;
 }
+/*aqui terminan las especificaciones de la clase tarjeta*/
 
+/*aqui comienzan las especificaciones del footer*/
 footer{
     background-color: rgb(7, 66, 86);
     display: flex;
@@ -93,4 +100,6 @@ footer{
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
+
+/*aqui terminan las especificaciones del footer */
 
