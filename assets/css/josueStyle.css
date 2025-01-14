@@ -34,7 +34,7 @@ header{
 }
 
 #menu_hamburguesa{
-    width:10vw ;
+    width:15vw ;
     padding-right: 2rem;
 }
 
@@ -53,6 +53,8 @@ header{
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     
     
     
@@ -69,7 +71,7 @@ header{
 }
 
 .tarjetas img{
-    width: 90vw;
+    width: 80vw;
 }
 
 .tarjetas .carrito{
