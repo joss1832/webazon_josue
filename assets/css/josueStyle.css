@@ -1,0 +1,94 @@
+*{
+    font-family: roboto;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    
+}
+
+header{
+    display: flex;
+    background-color: rgb(7, 66, 86);
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 2rem;
+    
+
+}
+
+#barra{
+    display: none;
+}
+
+.lista_header{
+    display: none;
+}
+
+#menu_hamburguesa{
+    width:10vw ;
+    padding-right: 2rem;
+}
+
+.lista_debajo_del_header{
+    display: none;
+}
+
+#imagen_del_jabon{
+    display: none;
+}
+
+
+.contenedor_general{
+    display: flex;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.tarjetas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+.tarjetas img{
+    width: 90vw;
+}
+
+.tarjetas .carrito{
+    width: 5vw;
+}
+
+.ver_mas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: red;
+}
+
+footer{
+    background-color: rgb(7, 66, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
